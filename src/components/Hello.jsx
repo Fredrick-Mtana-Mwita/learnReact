@@ -1,16 +1,27 @@
+// import hooks
+import { useState } from "react";
 // hello css
 import "../styles/hello.css";
 
 function Hello() {
+  // const [state, setState] = useState(initialState);
+  const [name, setName] = useState("mwita");
   const greetUser = () => {
     console.log("ÿou are good to go!");
+  };
+
+  const handleClick = () => {
+    setName("njox");
   };
 
   return (
     <>
       <div className="hello">
         <h3>Welcome to react docs</h3>
-        {/* don't call function inside greetUser() */}
+        <h5>Hello {name}</h5>
+        <button className="btn" onClick={handleClick}>
+          Change name
+        </button>
         <button className="hello-btn" onClick={greetUser}>
           get started
         </button>
