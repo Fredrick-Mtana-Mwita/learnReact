@@ -1,0 +1,21 @@
+.blogs {
+  padding: 10px;
+}
+
+.icons {
+  padding-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.like,
+.comment,
+.share {
+  padding: 5px;
+  cursor: pointer;
+}
+
+code {
+  background-color: white;
+  color: black;
+}

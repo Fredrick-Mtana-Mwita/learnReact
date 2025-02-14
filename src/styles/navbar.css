@@ -1,0 +1,22 @@
+.navbar {
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  font-style: italic;
+}
+
+.ul-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.ul-nav > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
