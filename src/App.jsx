@@ -6,13 +6,20 @@ import Hello from "./components/Hello";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <>
       <Navbar />
       <hr />
+      <Hello />
+      <hr />
       <Blog />
+      <hr />
+      <Profile />
+      <hr />
+      <About />
       <hr />
       <Footer />
     </>

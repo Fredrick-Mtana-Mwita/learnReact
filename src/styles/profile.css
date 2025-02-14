@@ -1,0 +1,29 @@
+.profile-picture {
+  border-radius: 87px;
+  width: 100px;
+  height: 100px;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-body {
+  display: flex;
+  gap: 10px;
+}
+
+.hey {
+  display: flex;
+}
+
+.post-hey,
+.followers-hey,
+.following-hey {
+  padding: 5px;
+}
+
+.followers-hey {
+  padding: 5px 38px;
+}
