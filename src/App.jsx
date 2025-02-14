@@ -7,6 +7,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
 import Profile from "./components/Profile";
+import UserProfile from "./components/UserProfile";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <Profile />
       <hr />
       <About />
+      <hr />
+      <UserProfile />
       <hr />
       <Footer />
     </>
